@@ -37,6 +37,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'httparty', '~> 0.15.6'
 gem 'awesome_print', '~> 1.8'
 
+# Needed for stylez
+
+gem 'bootstrap-sass'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
