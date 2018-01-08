@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Learn Enough Rails</title>
+    <title>Learn Enough Rails | <%= content_for?(:title) ? yield(:title) : 'Learn Enough Rails' %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>

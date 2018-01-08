@@ -4,25 +4,25 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_pages_home_url
     assert_response :success
-    assert_select "title", "Learn Enough Rails to be Dangerous"
+    assert_select "title", "Learn Enough Rails | Home"
   end
 
   test "should get help" do
     get static_pages_help_url
     assert_response :success
-    assert_select "title", "Help"
+    assert_select "title", "Learn Enough Rails | Help"
   end
 
   test "should get about" do
     get static_pages_about_url
     assert_response :success
-    assert_select "title", "About"
+    assert_select "title", "Learn Enough Rails | About"
   end
 
   test "should get contact" do
     get static_pages_contact_url
     assert_response :success
-    assert_select "title", "Contact"
+    assert_select "title", "Learn Enough Rails | Contact"
   end
 
 end
