@@ -13,4 +13,4 @@ two:
 good:
   name: A good name
   email: good_name@place.com
-  password_digest: <=% User.digest('good_password_good') %>
+  password_digest: <%= User.digest('good_password_good') %>
