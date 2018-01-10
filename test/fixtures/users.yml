@@ -3,7 +3,14 @@
 one:
   name: Dr Dufus McDufus
   email: dufus@mcdufus.org
+  password_digest: <%= User.digest('bad_passwd') %>
 
 two:
   name: Mr Dufus McDufus
   email: otherdufus@mcDufus.Org
+  password_digest: <%= User.digest('extremely_good_p@55Word') %>
+
+good:
+  name: A good name
+  email: good_name@place.com
+  password_digest: <%= User.digest('good_password_good') %>
