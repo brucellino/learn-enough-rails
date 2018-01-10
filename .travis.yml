@@ -1,0 +1,17 @@
+---
+language: ruby
+rvm:
+- 2.3.1
+
+before_install:
+install:
+- bundle install
+before_script:
+script:
+- rails  test
+before_cache:
+after_success:
+after_failure:
+before_deploy:
+after_deploy:
+after_script:
