@@ -16,3 +16,8 @@ module LeRails
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+Raven.configure do |config|
+  config.dsn = 'https://437f708872224b16b0533a420c4b68b3:b58d44ae283b480aa3cb10f0dff3539b@sentry.io/272393'
+  
+end

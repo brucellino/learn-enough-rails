@@ -39,6 +39,9 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'httparty', '~> 0.15.6'
 gem 'awesome_print', '~> 1.8'
 
+# logging
+gem "sentry-raven"
+
 # Needed for stylez
 
 gem 'bootstrap-sass'
